@@ -21,6 +21,7 @@ COPY . /app
 RUN pip install --no-cache-dir --upgrade pip && \
     pip install --no-cache-dir \
     paddlepaddle==2.6.2 \
+    paddlex==3.0.0 \
     paddleocr==2.8.1 \
     fastapi==0.104.1 \
     uvicorn==0.24.0 \
